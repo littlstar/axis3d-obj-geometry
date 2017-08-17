@@ -1,0 +1,32 @@
+{
+  "name": "axis3d-obj-geometry",
+  "version": "1.0.0",
+  "description": "Converts .OBJ source into an Axis3D Geometry instance.",
+  "main": "index.js",
+  "scripts": {
+    "example": "budo example -p 3000 --live --verbose -- -t brfs",
+    "test": ":"
+  },
+  "keywords": [
+    "axis3d",
+    "obj",
+    "geometry",
+    "wavefront",
+    "simplicial",
+    "complex",
+    "gl",
+    "regl"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "geom-parse-obj": "^1.0.0"
+  },
+  "devDependencies": {
+    "axis3d": "^0.3.9",
+    "brfs": "^1.4.3",
+    "domready": "^1.0.8",
+    "gl-quat": "^1.0.0",
+    "stats.js": "^0.17.0"
+  }
+}
